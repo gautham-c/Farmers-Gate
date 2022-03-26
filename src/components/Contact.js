@@ -1,4 +1,5 @@
 import React from 'react';
+import Popup from 'reactjs-popup';
 
 const Contact = () => {
     return (
@@ -23,7 +24,7 @@ const Contact = () => {
                     <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br />
                     <div class="row">
                         <div class="col-sm-12 form-group">
-                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                    <Popup class="rounded" trigger={<button class="btn btn-default pull-right" type="submit">Send</button>} modal><p class="text-center">We will get back to you within 24 hours</p></Popup>         
                         </div>
                     </div>
                 </div>

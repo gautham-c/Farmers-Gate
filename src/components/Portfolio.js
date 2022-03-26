@@ -1,30 +1,33 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+    const { t } = useTranslation();
     return (
         <div id="portfolio" class="container-fluid text-center bg-grey">
-            <h2>Portfolio</h2><br />
-            <h4>Equipment Required</h4>
+            <h2>{t("portfolio.header")}</h2><br />
+            <h4>{t("portfolio.subheader")}</h4>
             <div class="row text-center slideanim">
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="https://www.w3schools.com/bootstrap/paris.jpg" alt="Paris" width="400" height="300" />
-                        <p><strong>Paris</strong></p>
-                        <p>Yes, we built Paris</p>
+                        <img src={require('../assets/paddy.png')} alt="Paris" width="400" height="300" />
+                        <p><strong>{t("portfolio.equipments1")}</strong></p>
+                        <p>{t("portfolio.data1")}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="thumbnail">
+                        <img src={require('../assets/tractor.png')} alt="New York" width="400" height="300" />
+                        <p><strong>{t("portfolio.equipments2")}</strong></p>
+                        <p>{t("portfolio.data2")}</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="https://www.w3schools.com/bootstrap/newyork.jpg" alt="New York" width="400" height="300" />
-                        <p><strong>New York</strong></p>
-                        <p>We built New York</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="https://www.w3schools.com/bootstrap/sanfran.jpg" alt="San Francisco" width="400" height="300" />
-                        <p><strong>San Francisco</strong></p>
-                        <p>Yes, San Fran is ours</p>
+                        <img src={require('../assets/baler.png')} alt="San Francisco" width="400" height="300" />
+                        <p><strong>{t("portfolio.equipments3")}</strong></p>
+                        <p>{t("portfolio.data3")}</p>
                     </div>
                 </div>
             </div><br />

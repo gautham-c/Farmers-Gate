@@ -47,6 +47,8 @@ h4 {
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+  height: 20em;
+  width: 30em;
 }
 .thumbnail img {
   width: 100%;
@@ -189,4 +191,7 @@ footer .glyphicon {
   .logo {
     font-size: 150px;
   }
+}
+.services-card {
+  padding: 5;
 }

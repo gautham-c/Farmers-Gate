@@ -23,12 +23,11 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav navbar-right">
                         <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#services">SERVICES</a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#pricing">PRICING</a></li>
+                        <li><a href="#services">CROPS</a></li>
+                        <li><a href="#portfolio">EQUIPMENTS</a></li>
                         <li><a href="#contact">CONTACT</a></li>
-                        <li><a onClick={()=>changeLanguage("en")}>English</a></li>
-                        <li><a onClick={()=>changeLanguage("hi")}>हिन्दी</a></li>
+                        <li><a href="#" onClick={()=>changeLanguage("en")}>English</a></li>
+                        <li><a href="#" onClick={()=>changeLanguage("hi")}>हिन्दी</a></li>
                     </ul>
                 </div>
             </div>
