@@ -26,9 +26,8 @@ const About = () => {
                     </div>
                     <div className="col-sm-8">
                         <h2>Our Values</h2><br />
-                        <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-                        <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h4><strong>MISSION:</strong> Our Mission is to engage , inspire and motivate people through statistical learning , so that we could equip our future generations with balanced and informed insight into farming , food production and the environment. </h4><br />
+                        <p><strong>VISION:</strong> Our Mission is to engage , inspire and motivate people through statistical learning , so that we could equip our future generations with balanced and informed insight into farming , food production and the environment. We are here to mobilise farmers and educators to bring food production, farming and the environment into a learning context and embed an appreciation of farming into everyday life.</p>
                     </div>
                 </div>
             </div>

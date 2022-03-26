@@ -24,7 +24,7 @@ const Contact = () => {
                     <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br />
                     <div class="row">
                         <div class="col-sm-12 form-group">
-                    <Popup class="rounded" trigger={<button class="btn btn-default pull-right" type="submit">Send</button>} modal><p class="text-center">We will get back to you within 24 hours</p></Popup>         
+                    <Popup class="rounded" trigger={<button class="btn btn-default pull-right" type="submit">Send</button>} modal><p class="text-center">Thanks for your response . We will get back to you within 24 hours</p></Popup>         
                         </div>
                     </div>
                 </div>
