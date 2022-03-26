@@ -21,14 +21,14 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
-                    <ul className="nav navbar-nav navbar-right py-auto">
+                    <ul className="nav navbar-nav navbar-right">
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#services">SERVICES</a></li>
                         <li><a href="#portfolio">PORTFOLIO</a></li>
                         <li><a href="#pricing">PRICING</a></li>
                         <li><a href="#contact">CONTACT</a></li>
-                        <li><button className="btn btn-default btn-md" onClick={()=>changeLanguage("en")}>English</button></li>
-                        <li><button className="btn btn-default btn-md" onClick={()=>changeLanguage("hi")}>हिन्दी</button></li>
+                        <li><a onClick={()=>changeLanguage("en")}>English</a></li>
+                        <li><a onClick={()=>changeLanguage("hi")}>हिन्दी</a></li>
                     </ul>
                 </div>
             </div>
