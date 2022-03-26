@@ -1,6 +1,12 @@
 import React from 'react';
+import i18n from "../Translations";
 
 const Navbar = () => {
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+      };    
+
     return (
         <nav className="navbar navbar-default navbar-fixed-top">
             <div className="container">
@@ -21,6 +27,8 @@ const Navbar = () => {
                         <li><a href="#portfolio">PORTFOLIO</a></li>
                         <li><a href="#pricing">PRICING</a></li>
                         <li><a href="#contact">CONTACT</a></li>
+                        <li><a onClick={()=>changeLanguage("en")}>English</a></li>
+                        <li><a onClick={()=>changeLanguage("hi")}>हिन्दी</a></li>
                     </ul>
                 </div>
             </div>
