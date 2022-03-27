@@ -28,6 +28,7 @@ const Navbar = () => {
                         <li><a href="#contact">CONTACT</a></li>
                         <li><a href="#" onClick={()=>changeLanguage("en")}>English</a></li>
                         <li><a href="#" onClick={()=>changeLanguage("hi")}>हिन्दी</a></li>
+                        <li><a href="#" onClick={()=>changeLanguage("pu")}>ਪੰਜਾਬੀ</a></li>
                     </ul>
                 </div>
             </div>

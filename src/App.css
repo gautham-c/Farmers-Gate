@@ -42,9 +42,8 @@ h4 {
 .logo {
   color: #05b138;
   font-size: 17em;
-  margin: auto;
-  text-align: center;
-  justify-content: center;
+  margin-top: 0.25em;
+  margin-left: 0.25em;
 }
 .thumbnail {
   padding: 0 0 15px 0;
