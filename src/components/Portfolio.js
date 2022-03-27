@@ -10,7 +10,7 @@ const Portfolio = () => {
             <div class="row text-center slideanim">
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src={require('../assets/paddy.png')} alt="Paris" width="400" height="300" />
+                        <img src={require('../assets/paddy.png')} alt="Electric Paddy Transplanter" width="400" height="300" />
                         <p><strong>{t("portfolio.equipments1")}</strong></p>
                         <p>{t("portfolio.data1")}</p>
                     </div>
@@ -18,14 +18,14 @@ const Portfolio = () => {
                 <div class="col-sm-4">
 
                     <div class="thumbnail">
-                        <img src={require('../assets/tractor.png')} alt="New York" width="400" height="300" />
+                        <img src={require('../assets/tractor.png')} alt="Tractor" width="400" height="300" />
                         <p><strong>{t("portfolio.equipments2")}</strong></p>
                         <p>{t("portfolio.data2")}</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src={require('../assets/baler.png')} alt="San Francisco" width="400" height="300" />
+                        <img src={require('../assets/baler.png')} alt="Round Straw Baler" width="400" height="300" />
                         <p><strong>{t("portfolio.equipments3")}</strong></p>
                         <p>{t("portfolio.data3")}</p>
                     </div>
