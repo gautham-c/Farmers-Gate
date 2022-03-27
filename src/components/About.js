@@ -25,9 +25,9 @@ const About = () => {
                         <span className="glyphicon glyphicon-globe logo slideanim"></span>
                     </div>
                     <div className="col-sm-8">
-                        <h2>Our Values</h2><br />
-                        <h4><strong>MISSION:</strong> Our Mission is to engage , inspire and motivate people through statistical learning , so that we could equip our future generations with balanced and informed insight into farming , food production and the environment. </h4><br />
-                        <p><strong>VISION:</strong> Our Mission is to engage , inspire and motivate people through statistical learning , so that we could equip our future generations with balanced and informed insight into farming , food production and the environment. We are here to mobilise farmers and educators to bring food production, farming and the environment into a learning context and embed an appreciation of farming into everyday life.</p>
+                        <h2>{t("about.values")}</h2><br />
+                        <h4><strong>{t("about.mission")}</strong> {t("about.md")}</h4><br />
+                        <p><strong>{t("about.vision")}</strong> {t("about.vd")}</p>
                     </div>
                 </div>
             </div>
