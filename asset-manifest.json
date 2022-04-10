@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/gautham-c.github.io/vekreate/static/css/main.31aa14df.chunk.css",
+    "main.js": "/gautham-c.github.io/vekreate/static/js/main.26fd7366.chunk.js",
+    "main.js.map": "/gautham-c.github.io/vekreate/static/js/main.26fd7366.chunk.js.map",
+    "runtime-main.js": "/gautham-c.github.io/vekreate/static/js/runtime-main.96daca5d.js",
+    "runtime-main.js.map": "/gautham-c.github.io/vekreate/static/js/runtime-main.96daca5d.js.map",
+    "static/css/2.0f184c0a.chunk.css": "/gautham-c.github.io/vekreate/static/css/2.0f184c0a.chunk.css",
+    "static/js/2.32be941a.chunk.js": "/gautham-c.github.io/vekreate/static/js/2.32be941a.chunk.js",
+    "static/js/2.32be941a.chunk.js.map": "/gautham-c.github.io/vekreate/static/js/2.32be941a.chunk.js.map",
+    "index.html": "/gautham-c.github.io/vekreate/index.html",
+    "precache-manifest.da4da0de7a5c75ad5ec05325a2d181f3.js": "/gautham-c.github.io/vekreate/precache-manifest.da4da0de7a5c75ad5ec05325a2d181f3.js",
+    "service-worker.js": "/gautham-c.github.io/vekreate/service-worker.js",
+    "static/css/2.0f184c0a.chunk.css.map": "/gautham-c.github.io/vekreate/static/css/2.0f184c0a.chunk.css.map",
+    "static/css/main.31aa14df.chunk.css.map": "/gautham-c.github.io/vekreate/static/css/main.31aa14df.chunk.css.map",
+    "static/js/2.32be941a.chunk.js.LICENSE.txt": "/gautham-c.github.io/vekreate/static/js/2.32be941a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/gautham-c.github.io/vekreate/static/media/background.64e51230.jpg",
+    "static/media/baler.png": "/gautham-c.github.io/vekreate/static/media/baler.a5941c5e.png",
+    "static/media/farm.png": "/gautham-c.github.io/vekreate/static/media/farm.82da7631.png",
+    "static/media/paddy.png": "/gautham-c.github.io/vekreate/static/media/paddy.8b22bf2b.png",
+    "static/media/tractor.png": "/gautham-c.github.io/vekreate/static/media/tractor.2e452a8d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96daca5d.js",
+    "static/css/2.0f184c0a.chunk.css",
+    "static/js/2.32be941a.chunk.js",
+    "static/css/main.31aa14df.chunk.css",
+    "static/js/main.26fd7366.chunk.js"
+  ]
+}
