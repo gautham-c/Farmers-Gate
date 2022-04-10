@@ -1,11 +1,13 @@
 {
-  "name": "react-static-website",
+  "homepage":"gautham-c.github.io/vekreate",
+  "name": "vekreate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^3.2.3",
     "i18next": "^21.6.14",
     "i18next-http-backend": "^1.4.0",
     "react": "^16.13.1",
@@ -15,6 +17,8 @@
     "reactjs-popup": "^2.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
